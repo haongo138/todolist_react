@@ -1,5 +1,18 @@
-
-.item-complete {
+.item {
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.item > p {
+  margin-left: 3em;
+}
+.item-complete > p {
   text-decoration: line-through;
   opacity: .3;
+}
+
+.state-icon {
+  padding-left: 10px;
 }
